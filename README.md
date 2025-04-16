@@ -1,27 +1,64 @@
-# KillBill - Recon
-Recon that separates results for you to ease the work
+Here's a cleaner and more polished version of your `README.md` with improved formatting, consistency, and clarity:
 
-# Usage
-## 1. Manual (./manual.sh)
-``` bash
-root@killbill:~/recon# ./manual.sh 
+---
+
+```markdown
+# 🔪 KillBill - Recon
+
+Automated recon that separates and organizes results to make your workflow easier.
+
+---
+
+## 🚀 Usage
+
+### 1. Manual Mode (`./manual.sh`)
+
+Run the script and follow the prompts:
+
+```bash
+root@killbill:~/recon# ./manual.sh
 Enter root domain: <example.com>
 Enter organization name: example
 ```
-Results:
+
+#### 📂 Results will be saved in:
 ```
-root@killbill:~/recon/TFH# ls
-200.txt  301.txt  302.txt  401.txt  403.txt  404.txt  502.txt  503.txt  all_subs.txt  last_notified_metadata.txt  metadata.tmp  metadata.txt  resolved.txt  rootdomain.txt
+/root/recon/TFH/
 ```
 
-## 2. Set a cron job to run the auto_cron.sh
+Example file list:
+```
+200.txt  
+301.txt  
+302.txt  
+401.txt  
+403.txt  
+404.txt  
+502.txt  
+503.txt  
+all_subs.txt  
+last_notified_metadata.txt  
+metadata.tmp  
+metadata.txt  
+resolved.txt  
+rootdomain.txt
+```
 
-``` bash
+---
+
+### 2. Auto Mode (via Cron Job)
+
+To automate recon daily at 4:00 AM, add the following line to your crontab:
+
+```bash
 crontab -e
+```
+
+```bash
 0 4 * * * /root/recon/auto_cron.sh >> /root/recon/cron.log 2>&1
 ```
 
-### Format:
+📌 **Crontab format reference:**
 ```
 * * * * * command_to_run
 │ │ │ │ │
@@ -31,3 +68,12 @@ crontab -e
 │ └───────── Hour (0 - 23)
 └─────────── Minute (0 - 59)
 ```
+
+---
+
+Happy Hunting 🕵️‍♂️💥
+```
+
+---
+
+Let me know if you'd like to add badges, screenshots, or a logo to the README as well!
