@@ -18,12 +18,12 @@ Run the script and follow the prompts:
 ```bash
 root@killbill:~/recon# ./manual.sh
 Enter root domain: <example.com>
-Enter organization name: example
+Enter organization name: <org>
 ```
 
 #### 📂 Results will be saved in:
 ```
-/root/recon/TFH/
+/root/recon/<org>/
 ```
 
 Example file list:
