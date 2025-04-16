@@ -16,10 +16,10 @@ root@killbill:~/recon/TFH# ls
 
 ## 2. Set a cron job to run the auto_cron.sh
 
+``` bash
 crontab -e
-
-Enter this:
 0 4 * * * /root/recon/auto_cron.sh >> /root/recon/cron.log 2>&1
+```
 
 ### Format:
 ```
