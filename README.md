@@ -30,7 +30,7 @@ Example file list:
 
 ---
 
-### 2. ✈️ Auto Mode (via Cron Job)
+### 2. ✈️ Auto Mode (via Cron 🌽 Job)
 
 To automate recon daily at 4:00 AM, add the following line to your crontab:
 
