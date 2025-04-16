@@ -1,0 +1,5 @@
+discord:
+  - id: "recon_alerts"
+    discord_channel: "recon_alerts"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1359114495108321332/4S7tCMe17ma3IbDRbSO0ccUTz3dYEl9gqg9TDnZGKxCte65JCKQIHmoiJ079njOYOf5R"
