@@ -15,7 +15,7 @@ Automated recon that separates and organizes results to make your workflow easie
 
 Run the script and follow the prompts:
 
-```bash
+
 root@killbill:~/recon# ./manual.sh
 Enter root domain: <example.com>
 Enter organization name: <org>
