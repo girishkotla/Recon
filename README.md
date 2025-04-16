@@ -25,20 +25,7 @@ Enter organization name: <org>
 
 Example file list:
 ```
-200.txt  
-301.txt  
-302.txt  
-401.txt  
-403.txt  
-404.txt  
-502.txt  
-503.txt  
-all_subs.txt  
-last_notified_metadata.txt  
-metadata.tmp  
-metadata.txt  
-resolved.txt  
-rootdomain.txt
+200.txt  301.txt  302.txt  401.txt  403.txt  404.txt  502.txt  503.txt  all_subs.txt  last_notified_metadata.txt  metadata.tmp  metadata.txt  resolved.txt rootdomain.txt
 ```
 
 ---
