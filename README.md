@@ -1,6 +1,6 @@
 Here's a cleaner and more polished version of your `README.md` with improved formatting, consistency, and clarity:
 
-# 🔪 KillBill - Recon
+# 🔪 KillBill -  🔍 Recon 
 
 Automated recon that separates and organizes results to make your workflow easier.
 
