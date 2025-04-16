@@ -22,6 +22,7 @@ Enter this:
 0 4 * * * /root/recon/auto_cron.sh >> /root/recon/cron.log 2>&1
 
 Format:
+```
 * * * * * command_to_run
 │ │ │ │ │
 │ │ │ │ └─── Day of week (0 - 7) (Sunday = 0 or 7)
@@ -29,3 +30,4 @@ Format:
 │ │ └─────── Day of month (1 - 31)
 │ └───────── Hour (0 - 23)
 └─────────── Minute (0 - 59)
+```
