@@ -8,7 +8,7 @@ Automated recon that separates and organizes results to make your workflow easie
 
 ## 🚀 Usage
 
-### 1. Manual Mode (`./manual.sh`)
+### 1. 💼 Manual Mode (`./manual.sh`)
 
 Run the script and follow the prompts:
 
