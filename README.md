@@ -69,8 +69,3 @@ crontab -e
 ---
 
 Happy Hunting 🕵️‍♂️💥
-```
-
----
-
-Let me know if you'd like to add badges, screenshots, or a logo to the README as well!
